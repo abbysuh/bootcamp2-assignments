@@ -1,7 +1,15 @@
-.heading {
-  background:BlueViolet;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 
-h1 {
-  font-size: 70px;
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
