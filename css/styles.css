@@ -13,4 +13,44 @@ p {
     margin-right:5px;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand h1 {
+  font-family: 'Satisfy';
+  font-size: 26px;
+  margin-top: 0;
+  color: coral;
+}
+
+.logo {
+  width: 40px;
+}
+
+.jumbotron h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.bg-cover {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+.jumbotron p {
+  text-align: center;
+}
+
 /* PLACE YOUR CUSTOM CODE HERE */
