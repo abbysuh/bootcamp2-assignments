@@ -13,6 +13,8 @@ p {
     margin-right:5px;
 }
 
+/* PLACE YOUR CUSTOM CODE HERE */
+
 .navbar {
   margin-bottom: 0;
 }
@@ -53,4 +55,25 @@ p {
   text-align: center;
 }
 
-/* PLACE YOUR CUSTOM CODE HERE */
+.cat-toys h1 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* .cat-toys img {
+  height: 75%;
+  width: 75%;
+  padding-bottom: 20px;
+} */
+
+@media (max-width:700px) {
+  .cat-toys {
+    text-align: center;
+  }
+
+  /* img {
+    height: 100%;
+    width: 100%
+  } */
+}
