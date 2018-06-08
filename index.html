@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Satisfy" rel="stylesheet">
     <!-- link all the css here -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,41 +22,101 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img class="pull-left logo" alt="Brand" src="img/petstore_logo.png">
 				<h1 class="pull-left">Pet Store</h1>
       </a>
     </div>
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Products</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
   </ul>
 </div>
 </nav>
 
-<div class="jumbotron jumbotron bg-cover">
+<div class="jumbotron bg-cover">
     <div class="container hero">
       <h1>The products they love. Prices you like. </h1>
       <p><a class="btn btn-primary btn-sm" href="#" role="button">Adopt a pet</a></p>
     </div>
   </div>
 
-<section class="products">
+<section id="products"class="products cat">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 cat-toys">
+			<div class="col-md-6 cat-toys">
 				<img src="img/product2.png" class="img-responsive center-block" alt="Responsive image">
 			</div>
-			<div class="col-sm-6 cat-toys">
-				<h1>Cat Toys</h1>
+			<div class="col-md-6 cat-toys">
+				<h2>Cat Toys</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptatem necessitatibus vitae adipisci incidunt quam aliquam ab, atque nemo libero deserunt et fuga neque molestiae perferendis, quidem officiis, quasi totam.</p>
 				<a class="btn btn-primary btn-sm" href="#" role="button">Purchase Now</a>
 			</div>
 		</div>
 	</div>
 </section>
+
+<section class="products dog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-push-6 dog-toys">
+				<img src="img/product1.png" class="img-responsive center-block" alt="Responsive image">
+			</div>
+			<div class="col-md-6 col-md-pull-6 dog-toys">
+				<h2>Dog Toys</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptatem necessitatibus vitae adipisci incidunt quam aliquam ab, atque nemo libero deserunt et fuga neque molestiae perferendis, quidem officiis, quasi totam.</p>
+				<a class="btn btn-primary btn-sm" href="#" role="button">Purchase Now</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="adopt">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 visible-xs-block visible-sm-block">
+				<i class="far fa-heart"></i>
+				<h2>Adopt an Animal</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus labore laboriosam, eum nisi cum minima accusamus illum distinctio voluptates natus molestiae itaque rerum quisquam modi repellat sed, libero quo! Temporibus?</p>
+				<a class="btn btn-primary btn-sm" href="#" role="button">Adopt</a>
+			</div>
+			<div class="col-md-4 visible-md-block visible-lg-block">
+				<i class="far fa-heart"></i>
+				<h2>Adopt a Cat</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus labore laboriosam, eum nisi cum minima accusamus illum distinctio voluptates natus molestiae itaque rerum quisquam modi repellat sed, libero quo! Temporibus?</p>
+				<a class="btn btn-primary btn-sm" href="#" role="button">Adopt</a>
+			</div>
+			<div class="col-md-4 visible-md-block visible-lg-block">
+				<i class="far fa-heart"></i>
+				<h2>Adopt a Dog</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus labore laboriosam, eum nisi cum minima accusamus illum distinctio voluptates natus molestiae itaque rerum quisquam modi repellat sed, libero quo! Temporibus?</p>
+				<a class="btn btn-primary btn-sm" href="#" role="button">Adopt</a>
+			</div>
+			<div class="col-md-4 visible-md-block visible-lg-block">
+				<i class="far fa-heart"></i>
+				<h2>Adopt a Fish</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus labore laboriosam, eum nisi cum minima accusamus illum distinctio voluptates natus molestiae itaque rerum quisquam modi repellat sed, libero quo! Temporibus?</p>
+				<a class="btn btn-primary btn-sm" href="#" role="button">Adopt</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-offset-8">
+				<h2>Follow us on Social Media</h2>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+
 
     <!-- link all the scripts here -->
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
