@@ -66,7 +66,7 @@ p {
 }
 
 .bg-cover {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/cat.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -81,6 +81,18 @@ p {
   text-align: center;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: indigo;
+    border-color: transparent;
+  }
+
+.btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: coral;
+    border-color: transparent;
+  }
+
 .products {
   padding-bottom: 50px;
 }
@@ -88,10 +100,11 @@ p {
 .products h2 {
   text-transform: uppercase;
   font-weight: 700;
+  color: coral;
 }
 
 .products p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .adopt {
@@ -104,11 +117,12 @@ p {
 .adopt h2 {
   text-transform: uppercase;
   font-weight: 700;
+  color: coral;
 }
 
 footer {
   background-color: #222222;
-  color: #ffffff;
+  color: coral;
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 50px;

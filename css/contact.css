@@ -15,24 +15,49 @@ p {
 
 /* PLACE YOUR CUSTOM CODE HERE */
 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
   margin-bottom: 0;
+  background-color: indigo;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: coral;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: coral;
+}
+
+.navbar-default .navbar-toggle:focus{
+    background-color: transparent;
 }
 
 .navbar-brand h1 {
   font-family: 'Satisfy', cursive;
   font-size: 26px;
   margin-top: 0;
-  color: coral;
+  color: #ffffff;
 }
 
 .logo {
   width: 40px;
-
 }
 
 .jumbotron h1 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -41,7 +66,7 @@ p {
 }
 
 .bg-cover {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/cat.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,8 +81,20 @@ p {
   text-align: center;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: indigo;
+    border-color: transparent;
+  }
+
+.btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: coral;
+    border-color: transparent;
+  }
+
+
 .contact {
-  font-family: 'Open Sans',sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -65,19 +102,22 @@ p {
 .contact h2 {
   text-transform: uppercase;
   font-weight: 700;
+  color: coral;
+}
+
+.list-group-item {
+  background-color: #eeeeee;
 }
 
 footer {
   background-color: #222222;
-  color: #ffffff;
+  color: coral;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 footer h2 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 15px;
 }
